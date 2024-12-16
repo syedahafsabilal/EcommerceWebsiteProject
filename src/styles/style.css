@@ -1,0 +1,28 @@
+.button {
+  width: 156px;
+  height: 44px;
+  padding: 0px 20px;
+  gap: 8px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0;
+  background-color: #3563E9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-text {
+  width: 116px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+

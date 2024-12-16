@@ -1,0 +1,33 @@
+.imageContainer {
+  display: flex; /* To display the images side by side */
+  gap: 20px; /* Increased space between images */
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Vertically center the images */
+  padding: 20px; /* Add padding around the container */
+}
+
+.image {
+  border-radius: 15px; /* More rounded corners */
+  object-fit: cover; /* To maintain aspect ratio */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  width: 100%; /* Ensure image is responsive */
+  max-width: 620px; /* Max width for images */
+  height: 300px; /* Maintain aspect ratio */
+}
+
+.image:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect on hover */
+}
+
+@media (max-width: 768px) {
+  .image {
+    max-width: 200px; /* Adjust image size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .image {
+    max-width: 150px; /* Further adjustment for very small screens */
+  }
+}
